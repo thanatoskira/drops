@@ -14,11 +14,8 @@ class IndexController extends Controller {
 			$model = M('drops') -> where($where);
 		}*/
 		// 查询满足要求的总记录数
-<<<<<<< HEAD
 		$count = $model -> where($where) -> count();//分页
-=======
 		$count = $model -> where($where) -> count();
->>>>>>> 5ed6ee37e54674e38a4c04a3317f02d9148c4c76
 		$Page = new \Extend\Page($count, 10);
 		// 实例化分页类 传入总记录数和每页显示的记录数(25)
 		$show = $Page -> show();

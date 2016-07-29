@@ -14420,3 +14420,108 @@ INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
 
 =======
 >>>>>>> 5ed6ee37e54674e38a4c04a3317f02d9148c4c76
+[ 2016-07-29T19:54:15+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003897s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003173s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003356s ]
+
+[ 2016-07-29T19:54:15+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000706s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001163s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001309s ]
+
+[ 2016-07-29T19:54:16+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+
+[ 2016-07-29T19:55:00+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000649s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/ph4nt0mer/HBuilderProjects/Application/Home/Controller/IndexController.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `drops` [ RunTime:0.0113s ]
+NOTIC: [8] Undefined variable: where /Users/ph4nt0mer/HBuilderProjects/Application/Home/Controller/IndexController.class.php 第 17 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `drops` LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: where /Users/ph4nt0mer/HBuilderProjects/Application/Home/Controller/IndexController.class.php 第 18 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `drops` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `drops` ORDER BY id ASC LIMIT 0,10   [ RunTime:0.0099s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017180s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017286s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000167s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001115s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001244s ]
+
+[ 2016-07-29T19:55:01+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000742s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/ph4nt0mer/HBuilderProjects/Application/Home/Controller/IndexController.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `drops` [ RunTime:0.0029s ]
+NOTIC: [8] Undefined variable: where /Users/ph4nt0mer/HBuilderProjects/Application/Home/Controller/IndexController.class.php 第 17 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `drops` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: where /Users/ph4nt0mer/HBuilderProjects/Application/Home/Controller/IndexController.class.php 第 18 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `drops` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `drops` ORDER BY id ASC LIMIT 0,10   [ RunTime:0.0067s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000196s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016552s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016656s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000236s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000311s ]
+INFO: 
+INFO: 
+INFO: 
+
+[ 2016-07-29T19:55:01+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000883s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/ph4nt0mer/HBuilderProjects/Application/Home/Controller/IndexController.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `drops` [ RunTime:0.0063s ]
+NOTIC: [8] Undefined variable: where /Users/ph4nt0mer/HBuilderProjects/Application/Home/Controller/IndexController.class.php 第 17 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `drops` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: where /Users/ph4nt0mer/HBuilderProjects/Application/Home/Controller/IndexController.class.php 第 18 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `drops` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `drops` ORDER BY id ASC LIMIT 0,10   [ RunTime:0.0072s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017490s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017613s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000329s ]
+INFO: 
+INFO: 
+INFO: 
+

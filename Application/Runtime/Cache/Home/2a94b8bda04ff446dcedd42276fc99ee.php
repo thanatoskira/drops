@@ -8,15 +8,15 @@
 	
 	<title>Progressus - Free business bootstrap template by GetTemplate</title>
 
-	<link rel="shortcut icon" href="/wiki/Application/Home/View//Public//assets/images/gt_favicon.png">
+	<link rel="shortcut icon" href="/Application/Home/View//Public//assets/images/gt_favicon.png">
 	
 	<link rel="stylesheet" media="screen" href="http://fonts.useso.com/css?family=Open+Sans:300,400,700">
-	<link rel="stylesheet" href="/wiki/Application/Home/View//Public//assets/css/bootstrap.min.css">
-	<link rel="stylesheet" href="/wiki/Application/Home/View//Public//assets/css/font-awesome.min.css">
+	<link rel="stylesheet" href="/Application/Home/View//Public//assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/Application/Home/View//Public//assets/css/font-awesome.min.css">
 
 	<!-- Custom styles for our template -->
-	<link rel="stylesheet" href="/wiki/Application/Home/View//Public//assets/css/bootstrap-theme.css" media="screen" >
-	<link rel="stylesheet" href="/wiki/Application/Home/View//Public//assets/css/main.css">
+	<link rel="stylesheet" href="/Application/Home/View//Public//assets/css/bootstrap-theme.css" media="screen" >
+	<link rel="stylesheet" href="/Application/Home/View//Public//assets/css/main.css">
 
 	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!--[if lt IE 9]>
@@ -32,7 +32,7 @@
 			<div class="navbar-header">
 				<!-- Button for smallest screens -->
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-				<a class="navbar-brand" href="index.html"><img src="/wiki/Application/Home/View//Public//assets/images/logo.png" alt="Progressus HTML5 template"></a>
+				<a class="navbar-brand" href="index.html"><img src="/Application/Home/View//Public//assets/images/logo.png" alt="Progressus HTML5 template"></a>
 			</div>
 			<div class="navbar-collapse collapse">
 				<ul class="nav navbar-nav pull-right">

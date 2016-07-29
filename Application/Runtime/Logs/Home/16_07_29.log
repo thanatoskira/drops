@@ -8532,3 +8532,1430 @@ ERR: 1064:You have an error in your SQL syntax; check the manual that correspond
 ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
  [ SQL语句 ] : SELECT * FROM `drops` WHERE ( id =  ) 
 
+[ 2016-07-29T14:07:43+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004885s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001390s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/ph4nt0mer/HBuilderProjects/Application/Home/Controller/IndexController.class.php 第 33 行.
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2016-07-29T14:07:44+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000926s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001061s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/ph4nt0mer/HBuilderProjects/Application/Home/Controller/IndexController.class.php 第 33 行.
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2016-07-29T14:07:44+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000847s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/ph4nt0mer/HBuilderProjects/Application/Home/Controller/IndexController.class.php 第 33 行.
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2016-07-29T14:07:58+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001176s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001306s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/ph4nt0mer/HBuilderProjects/Application/Home/Controller/IndexController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `drops` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: where /Users/ph4nt0mer/HBuilderProjects/Application/Home/Controller/IndexController.class.php 第 16 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `drops` LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT * FROM `drops` ORDER BY id ASC LIMIT 0,10   [ RunTime:0.0111s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+NOTIC: [8] Undefined index: title /Users/ph4nt0mer/HBuilderProjects/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029129s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029261s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001007s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001090s ]
+
+[ 2016-07-29T14:07:58+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002450s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000833s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/ph4nt0mer/HBuilderProjects/Application/Home/Controller/IndexController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `drops` [ RunTime:0.0062s ]
+NOTIC: [8] Undefined variable: where /Users/ph4nt0mer/HBuilderProjects/Application/Home/Controller/IndexController.class.php 第 16 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `drops` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `drops` ORDER BY id ASC LIMIT 0,10   [ RunTime:0.0078s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+NOTIC: [8] Undefined index: title /Users/ph4nt0mer/HBuilderProjects/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013925s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014057s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000387s ]
+INFO: 
+INFO: 
+INFO: 
+
+[ 2016-07-29T14:07:58+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000802s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000860s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/ph4nt0mer/HBuilderProjects/Application/Home/Controller/IndexController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `drops` [ RunTime:0.0083s ]
+NOTIC: [8] Undefined variable: where /Users/ph4nt0mer/HBuilderProjects/Application/Home/Controller/IndexController.class.php 第 16 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `drops` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `drops` ORDER BY id ASC LIMIT 0,10   [ RunTime:0.0084s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000246s ]
+NOTIC: [8] Undefined index: title /Users/ph4nt0mer/HBuilderProjects/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016278s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016456s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000629s ]
+INFO: 
+INFO: 
+INFO: 
+
+[ 2016-07-29T14:08:00+08:00 ] 127.0.0.1 /index.php/Home/index/show/id/1848412
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/ph4nt0mer/HBuilderProjects/Application/Home/Controller/IndexController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `drops` [ RunTime:0.0063s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `drops` WHERE ( id =  ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `drops` WHERE ( id =  ) 
+
+[ 2016-07-29T14:08:00+08:00 ] 127.0.0.1 /index.php/Home/index/show/id/1848412
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000632s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/ph4nt0mer/HBuilderProjects/Application/Home/Controller/IndexController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `drops` [ RunTime:0.0061s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `drops` WHERE ( id =  ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `drops` WHERE ( id =  ) 
+
+[ 2016-07-29T14:08:00+08:00 ] 127.0.0.1 /index.php/Home/index/show/id/1848412
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000698s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/ph4nt0mer/HBuilderProjects/Application/Home/Controller/IndexController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `drops` [ RunTime:0.0119s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `drops` WHERE ( id =  ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `drops` WHERE ( id =  ) 
+
+[ 2016-07-29T14:08:37+08:00 ] 127.0.0.1 /index.php/Home/index/show/id/1848412
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000822s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/ph4nt0mer/HBuilderProjects/Application/Home/Controller/IndexController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `drops` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `drops` WHERE ( id = 1848412 )  [ RunTime:0.0096s ]
+ERR: 模板不存在:./Application/Home/View/Index/show.html
+
+[ 2016-07-29T14:08:37+08:00 ] 127.0.0.1 /index.php/Home/index/show/id/1848412
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002616s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/ph4nt0mer/HBuilderProjects/Application/Home/Controller/IndexController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `drops` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `drops` WHERE ( id = 1848412 )  [ RunTime:0.0062s ]
+ERR: 模板不存在:./Application/Home/View/Index/show.html
+
+[ 2016-07-29T14:08:37+08:00 ] 127.0.0.1 /index.php/Home/index/show/id/1848412
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000568s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/ph4nt0mer/HBuilderProjects/Application/Home/Controller/IndexController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `drops` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `drops` WHERE ( id = 1848412 )  [ RunTime:0.0068s ]
+ERR: 模板不存在:./Application/Home/View/Index/show.html
+
+[ 2016-07-29T14:09:29+08:00 ] 127.0.0.1 /index.php/Home/index/show/id/1848412
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000654s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/ph4nt0mer/HBuilderProjects/Application/Home/Controller/IndexController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `drops` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `drops` WHERE ( id = 1848412 )  [ RunTime:0.0099s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+NOTIC: [8] Undefined index: title /Users/ph4nt0mer/HBuilderProjects/Application/Runtime/Cache/Home/ef90aeb0d15d5181851dc046c9941189.php 第 5 行.
+NOTIC: [8] Undefined variable: page /Users/ph4nt0mer/HBuilderProjects/Application/Runtime/Cache/Home/ef90aeb0d15d5181851dc046c9941189.php 第 15 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010455s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010531s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000204s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000579s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000639s ]
+
+[ 2016-07-29T14:09:29+08:00 ] 127.0.0.1 /index.php/Home/index/show/id/1848412
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001989s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002087s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/ph4nt0mer/HBuilderProjects/Application/Home/Controller/IndexController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `drops` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `drops` WHERE ( id = 1848412 )  [ RunTime:0.0065s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+NOTIC: [8] Undefined index: title /Users/ph4nt0mer/HBuilderProjects/Application/Runtime/Cache/Home/ef90aeb0d15d5181851dc046c9941189.php 第 5 行.
+NOTIC: [8] Undefined variable: page /Users/ph4nt0mer/HBuilderProjects/Application/Runtime/Cache/Home/ef90aeb0d15d5181851dc046c9941189.php 第 15 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010492s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010579s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000299s ]
+INFO: 
+INFO: 
+INFO: 
+
+[ 2016-07-29T14:09:29+08:00 ] 127.0.0.1 /index.php/Home/index/show/id/1848412
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000956s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/ph4nt0mer/HBuilderProjects/Application/Home/Controller/IndexController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `drops` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `drops` WHERE ( id = 1848412 )  [ RunTime:0.0063s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+NOTIC: [8] Undefined index: title /Users/ph4nt0mer/HBuilderProjects/Application/Runtime/Cache/Home/ef90aeb0d15d5181851dc046c9941189.php 第 5 行.
+NOTIC: [8] Undefined variable: page /Users/ph4nt0mer/HBuilderProjects/Application/Runtime/Cache/Home/ef90aeb0d15d5181851dc046c9941189.php 第 15 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011220s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011286s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000179s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000233s ]
+INFO: 
+INFO: 
+INFO: 
+
+[ 2016-07-29T14:10:10+08:00 ] 127.0.0.1 /index.php/Home/index/show/id/1848412
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000657s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/ph4nt0mer/HBuilderProjects/Application/Home/Controller/IndexController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `drops` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `drops` WHERE ( id = 1848412 )  [ RunTime:0.0069s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000213s ]
+NOTIC: [8] Undefined index: title /Users/ph4nt0mer/HBuilderProjects/Application/Runtime/Cache/Home/ef90aeb0d15d5181851dc046c9941189.php 第 5 行.
+NOTIC: [8] Undefined index: detail /Users/ph4nt0mer/HBuilderProjects/Application/Runtime/Cache/Home/ef90aeb0d15d5181851dc046c9941189.php 第 9 行.
+NOTIC: [8] Undefined variable: page /Users/ph4nt0mer/HBuilderProjects/Application/Runtime/Cache/Home/ef90aeb0d15d5181851dc046c9941189.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008849s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008931s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000206s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000971s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001063s ]
+
+[ 2016-07-29T14:10:10+08:00 ] 127.0.0.1 /index.php/Home/index/show/id/1848412
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000570s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/ph4nt0mer/HBuilderProjects/Application/Home/Controller/IndexController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `drops` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `drops` WHERE ( id = 1848412 )  [ RunTime:0.0061s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+NOTIC: [8] Undefined index: title /Users/ph4nt0mer/HBuilderProjects/Application/Runtime/Cache/Home/ef90aeb0d15d5181851dc046c9941189.php 第 5 行.
+NOTIC: [8] Undefined index: detail /Users/ph4nt0mer/HBuilderProjects/Application/Runtime/Cache/Home/ef90aeb0d15d5181851dc046c9941189.php 第 9 行.
+NOTIC: [8] Undefined variable: page /Users/ph4nt0mer/HBuilderProjects/Application/Runtime/Cache/Home/ef90aeb0d15d5181851dc046c9941189.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007933s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007996s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000168s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000221s ]
+INFO: 
+INFO: 
+INFO: 
+
+[ 2016-07-29T14:10:10+08:00 ] 127.0.0.1 /index.php/Home/index/show/id/1848412
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000841s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/ph4nt0mer/HBuilderProjects/Application/Home/Controller/IndexController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `drops` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `drops` WHERE ( id = 1848412 )  [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+NOTIC: [8] Undefined index: title /Users/ph4nt0mer/HBuilderProjects/Application/Runtime/Cache/Home/ef90aeb0d15d5181851dc046c9941189.php 第 5 行.
+NOTIC: [8] Undefined index: detail /Users/ph4nt0mer/HBuilderProjects/Application/Runtime/Cache/Home/ef90aeb0d15d5181851dc046c9941189.php 第 9 行.
+NOTIC: [8] Undefined variable: page /Users/ph4nt0mer/HBuilderProjects/Application/Runtime/Cache/Home/ef90aeb0d15d5181851dc046c9941189.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007534s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007606s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000209s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000279s ]
+INFO: 
+INFO: 
+INFO: 
+
+[ 2016-07-29T14:12:03+08:00 ] 127.0.0.1 /index.php/Home/index/show/id/1848412
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000552s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/ph4nt0mer/HBuilderProjects/Application/Home/Controller/IndexController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `drops` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `drops` WHERE ( id = 1848412 )  [ RunTime:0.0051s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+NOTIC: [8] Undefined index: title /Users/ph4nt0mer/HBuilderProjects/Application/Runtime/Cache/Home/ef90aeb0d15d5181851dc046c9941189.php 第 5 行.
+NOTIC: [8] Undefined index: detail /Users/ph4nt0mer/HBuilderProjects/Application/Runtime/Cache/Home/ef90aeb0d15d5181851dc046c9941189.php 第 9 行.
+NOTIC: [8] Undefined variable: page /Users/ph4nt0mer/HBuilderProjects/Application/Runtime/Cache/Home/ef90aeb0d15d5181851dc046c9941189.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007151s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007214s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000164s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000581s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000655s ]
+
+[ 2016-07-29T14:12:03+08:00 ] 127.0.0.1 /index.php/Home/index/show/id/1848412
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000754s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/ph4nt0mer/HBuilderProjects/Application/Home/Controller/IndexController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `drops` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `drops` WHERE ( id = 1848412 )  [ RunTime:0.0064s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+NOTIC: [8] Undefined index: title /Users/ph4nt0mer/HBuilderProjects/Application/Runtime/Cache/Home/ef90aeb0d15d5181851dc046c9941189.php 第 5 行.
+NOTIC: [8] Undefined index: detail /Users/ph4nt0mer/HBuilderProjects/Application/Runtime/Cache/Home/ef90aeb0d15d5181851dc046c9941189.php 第 9 行.
+NOTIC: [8] Undefined variable: page /Users/ph4nt0mer/HBuilderProjects/Application/Runtime/Cache/Home/ef90aeb0d15d5181851dc046c9941189.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007128s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007192s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000231s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000307s ]
+INFO: 
+INFO: 
+INFO: 
+
+[ 2016-07-29T14:12:03+08:00 ] 127.0.0.1 /index.php/Home/index/show/id/1848412
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000832s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/ph4nt0mer/HBuilderProjects/Application/Home/Controller/IndexController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `drops` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `drops` WHERE ( id = 1848412 )  [ RunTime:0.0063s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+NOTIC: [8] Undefined index: title /Users/ph4nt0mer/HBuilderProjects/Application/Runtime/Cache/Home/ef90aeb0d15d5181851dc046c9941189.php 第 5 行.
+NOTIC: [8] Undefined index: detail /Users/ph4nt0mer/HBuilderProjects/Application/Runtime/Cache/Home/ef90aeb0d15d5181851dc046c9941189.php 第 9 行.
+NOTIC: [8] Undefined variable: page /Users/ph4nt0mer/HBuilderProjects/Application/Runtime/Cache/Home/ef90aeb0d15d5181851dc046c9941189.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009300s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009391s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001449s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001535s ]
+INFO: 
+INFO: 
+INFO: 
+
+[ 2016-07-29T14:12:20+08:00 ] 127.0.0.1 /index.php/Home/index/show/id/1848412
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000618s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/ph4nt0mer/HBuilderProjects/Application/Home/Controller/IndexController.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `drops` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `drops` WHERE ( id = 1848412 )  [ RunTime:0.0059s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000355s ]
+NOTIC: [8] Undefined index: title /Users/ph4nt0mer/HBuilderProjects/Application/Runtime/Cache/Home/ef90aeb0d15d5181851dc046c9941189.php 第 5 行.
+NOTIC: [8] Undefined index: detail /Users/ph4nt0mer/HBuilderProjects/Application/Runtime/Cache/Home/ef90aeb0d15d5181851dc046c9941189.php 第 9 行.
+NOTIC: [8] Undefined variable: page /Users/ph4nt0mer/HBuilderProjects/Application/Runtime/Cache/Home/ef90aeb0d15d5181851dc046c9941189.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010179s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010262s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000381s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/ph4nt0mer/HBuilderProjects/Application/Home/Controller/IndexController.class.php:30) /Users/ph4nt0mer/HBuilderProjects/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/ph4nt0mer/HBuilderProjects/Application/Home/Controller/IndexController.class.php:30) /Users/ph4nt0mer/HBuilderProjects/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/ph4nt0mer/HBuilderProjects/Application/Home/Controller/IndexController.class.php:30) /Users/ph4nt0mer/HBuilderProjects/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000695s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000786s ]
+
+[ 2016-07-29T14:12:20+08:00 ] 127.0.0.1 /index.php/Home/index/show/id/1848412
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002674s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001183s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/ph4nt0mer/HBuilderProjects/Application/Home/Controller/IndexController.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `drops` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `drops` WHERE ( id = 1848412 )  [ RunTime:0.0075s ]
+INFO: 
+INFO: 
+INFO: 
+INFO: 
+NOTIC: 
+NOTIC: 
+NOTIC: 
+INFO: 
+INFO: 
+INFO: 
+INFO: 
+INFO: 
+NOTIC: 
+NOTIC: 
+NOTIC: 
+INFO: 
+INFO: 
+INFO: 
+
+[ 2016-07-29T14:12:21+08:00 ] 127.0.0.1 /index.php/Home/index/show/id/1848412
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000846s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/ph4nt0mer/HBuilderProjects/Application/Home/Controller/IndexController.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `drops` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `drops` WHERE ( id = 1848412 )  [ RunTime:0.0071s ]
+INFO: 
+INFO: 
+INFO: 
+INFO: 
+NOTIC: 
+NOTIC: 
+NOTIC: 
+INFO: 
+INFO: 
+INFO: 
+INFO: 
+INFO: 
+NOTIC: 
+NOTIC: 
+NOTIC: 
+INFO: 
+INFO: 
+INFO: 
+
+[ 2016-07-29T14:12:36+08:00 ] 127.0.0.1 /index.php/Home/index/show/id/1848412
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000640s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000878s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/ph4nt0mer/HBuilderProjects/Application/Home/Controller/IndexController.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `drops` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `drops` WHERE ( id = 1848412 )  [ RunTime:0.0063s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+NOTIC: [8] Undefined variable: page /Users/ph4nt0mer/HBuilderProjects/Application/Runtime/Cache/Home/ef90aeb0d15d5181851dc046c9941189.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007867s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007946s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000177s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000233s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/ph4nt0mer/HBuilderProjects/Application/Home/Controller/IndexController.class.php:30) /Users/ph4nt0mer/HBuilderProjects/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/ph4nt0mer/HBuilderProjects/Application/Home/Controller/IndexController.class.php:30) /Users/ph4nt0mer/HBuilderProjects/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/ph4nt0mer/HBuilderProjects/Application/Home/Controller/IndexController.class.php:30) /Users/ph4nt0mer/HBuilderProjects/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000631s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000722s ]
+
+[ 2016-07-29T14:12:36+08:00 ] 127.0.0.1 /index.php/Home/index/show/id/1848412
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000620s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000913s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/ph4nt0mer/HBuilderProjects/Application/Home/Controller/IndexController.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `drops` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `drops` WHERE ( id = 1848412 )  [ RunTime:0.0064s ]
+INFO: 
+INFO: 
+INFO: 
+INFO: 
+NOTIC: 
+INFO: 
+INFO: 
+INFO: 
+INFO: 
+INFO: 
+NOTIC: 
+NOTIC: 
+NOTIC: 
+INFO: 
+INFO: 
+INFO: 
+
+[ 2016-07-29T14:12:36+08:00 ] 127.0.0.1 /index.php/Home/index/show/id/1848412
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000682s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000809s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/ph4nt0mer/HBuilderProjects/Application/Home/Controller/IndexController.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `drops` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `drops` WHERE ( id = 1848412 )  [ RunTime:0.0073s ]
+INFO: 
+INFO: 
+INFO: 
+INFO: 
+NOTIC: 
+INFO: 
+INFO: 
+INFO: 
+INFO: 
+INFO: 
+NOTIC: 
+NOTIC: 
+NOTIC: 
+INFO: 
+INFO: 
+INFO: 
+
+[ 2016-07-29T14:12:48+08:00 ] 127.0.0.1 /index.php/Home/index/show/id/1848412
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000823s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/ph4nt0mer/HBuilderProjects/Application/Home/Controller/IndexController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `drops` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `drops` WHERE ( id = 1848412 )  [ RunTime:0.0052s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+NOTIC: [8] Undefined variable: page /Users/ph4nt0mer/HBuilderProjects/Application/Runtime/Cache/Home/ef90aeb0d15d5181851dc046c9941189.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006948s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007125s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000151s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000779s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000884s ]
+
+[ 2016-07-29T14:12:48+08:00 ] 127.0.0.1 /index.php/Home/index/show/id/1848412
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000610s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/ph4nt0mer/HBuilderProjects/Application/Home/Controller/IndexController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `drops` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `drops` WHERE ( id = 1848412 )  [ RunTime:0.0058s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+NOTIC: [8] Undefined variable: page /Users/ph4nt0mer/HBuilderProjects/Application/Runtime/Cache/Home/ef90aeb0d15d5181851dc046c9941189.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008472s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008560s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000330s ]
+INFO: 
+INFO: 
+INFO: 
+
+[ 2016-07-29T14:12:48+08:00 ] 127.0.0.1 /index.php/Home/index/show/id/1848412
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000352s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001936s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000945s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/ph4nt0mer/HBuilderProjects/Application/Home/Controller/IndexController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `drops` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `drops` WHERE ( id = 1848412 )  [ RunTime:0.0077s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+NOTIC: [8] Undefined variable: page /Users/ph4nt0mer/HBuilderProjects/Application/Runtime/Cache/Home/ef90aeb0d15d5181851dc046c9941189.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011043s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011167s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000608s ]
+INFO: 
+INFO: 
+INFO: 
+
+[ 2016-07-29T14:12:58+08:00 ] 127.0.0.1 /index.php/Home/index/show/id/1848412
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000519s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/ph4nt0mer/HBuilderProjects/Application/Home/Controller/IndexController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `drops` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `drops` WHERE ( id = 1848412 )  [ RunTime:0.0051s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+NOTIC: [8] Undefined variable: page /Users/ph4nt0mer/HBuilderProjects/Application/Runtime/Cache/Home/ef90aeb0d15d5181851dc046c9941189.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006103s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006167s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000146s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000199s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000921s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001038s ]
+
+[ 2016-07-29T14:12:58+08:00 ] 127.0.0.1 /index.php/Home/index/show/id/1848412
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000582s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/ph4nt0mer/HBuilderProjects/Application/Home/Controller/IndexController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `drops` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `drops` WHERE ( id = 1848412 )  [ RunTime:0.0059s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+NOTIC: [8] Undefined variable: page /Users/ph4nt0mer/HBuilderProjects/Application/Runtime/Cache/Home/ef90aeb0d15d5181851dc046c9941189.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008827s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008925s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000387s ]
+INFO: 
+INFO: 
+INFO: 
+
+[ 2016-07-29T14:12:58+08:00 ] 127.0.0.1 /index.php/Home/index/show/id/1848412
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000883s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/ph4nt0mer/HBuilderProjects/Application/Home/Controller/IndexController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `drops` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `drops` WHERE ( id = 1848412 )  [ RunTime:0.0062s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+NOTIC: [8] Undefined variable: page /Users/ph4nt0mer/HBuilderProjects/Application/Runtime/Cache/Home/ef90aeb0d15d5181851dc046c9941189.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010253s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010348s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000344s ]
+INFO: 
+INFO: 
+INFO: 
+
+[ 2016-07-29T14:13:09+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000513s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/ph4nt0mer/HBuilderProjects/Application/Home/Controller/IndexController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `drops` [ RunTime:0.0063s ]
+NOTIC: [8] Undefined variable: where /Users/ph4nt0mer/HBuilderProjects/Application/Home/Controller/IndexController.class.php 第 16 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `drops` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `drops` ORDER BY id ASC LIMIT 0,10   [ RunTime:0.0081s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+NOTIC: [8] Undefined index: title /Users/ph4nt0mer/HBuilderProjects/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008743s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008861s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001280s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001408s ]
+
+[ 2016-07-29T14:13:11+08:00 ] 127.0.0.1 /index.php/Home/index/show/id/1848413
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000571s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/ph4nt0mer/HBuilderProjects/Application/Home/Controller/IndexController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `drops` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `drops` WHERE ( id = 1848413 )  [ RunTime:0.0055s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+NOTIC: [8] Undefined variable: page /Users/ph4nt0mer/HBuilderProjects/Application/Runtime/Cache/Home/ef90aeb0d15d5181851dc046c9941189.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006675s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006737s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000167s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000874s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001004s ]
+
+[ 2016-07-29T14:13:11+08:00 ] 127.0.0.1 /index.php/Home/index/show/id/1848413
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000694s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/ph4nt0mer/HBuilderProjects/Application/Home/Controller/IndexController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `drops` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `drops` WHERE ( id = 1848413 )  [ RunTime:0.0067s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+NOTIC: [8] Undefined variable: page /Users/ph4nt0mer/HBuilderProjects/Application/Runtime/Cache/Home/ef90aeb0d15d5181851dc046c9941189.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008385s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008470s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000181s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000238s ]
+INFO: 
+INFO: 
+INFO: 
+
+[ 2016-07-29T14:13:11+08:00 ] 127.0.0.1 /index.php/Home/index/show/id/1848413
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000775s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/ph4nt0mer/HBuilderProjects/Application/Home/Controller/IndexController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `drops` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `drops` WHERE ( id = 1848413 )  [ RunTime:0.0063s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+NOTIC: [8] Undefined variable: page /Users/ph4nt0mer/HBuilderProjects/Application/Runtime/Cache/Home/ef90aeb0d15d5181851dc046c9941189.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012211s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012308s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000249s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000327s ]
+INFO: 
+INFO: 
+INFO: 
+
+[ 2016-07-29T14:13:15+08:00 ] 127.0.0.1 /index.php/Home/index/show/id/1848420
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000575s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/ph4nt0mer/HBuilderProjects/Application/Home/Controller/IndexController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `drops` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `drops` WHERE ( id = 1848420 )  [ RunTime:0.0065s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+NOTIC: [8] Undefined variable: page /Users/ph4nt0mer/HBuilderProjects/Application/Runtime/Cache/Home/ef90aeb0d15d5181851dc046c9941189.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006298s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006363s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000172s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000841s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000953s ]
+
+[ 2016-07-29T14:13:15+08:00 ] 127.0.0.1 /index.php/Home/index/show/id/1848420
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001006s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/ph4nt0mer/HBuilderProjects/Application/Home/Controller/IndexController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `drops` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `drops` WHERE ( id = 1848420 )  [ RunTime:0.0078s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+NOTIC: [8] Undefined variable: page /Users/ph4nt0mer/HBuilderProjects/Application/Runtime/Cache/Home/ef90aeb0d15d5181851dc046c9941189.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012639s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012749s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000376s ]
+INFO: 
+INFO: 
+INFO: 
+
+[ 2016-07-29T14:13:15+08:00 ] 127.0.0.1 /index.php/Home/index/show/id/1848420
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000529s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003683s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/ph4nt0mer/HBuilderProjects/Application/Home/Controller/IndexController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `drops` [ RunTime:0.0142s ]
+SQL: SELECT * FROM `drops` WHERE ( id = 1848420 )  [ RunTime:0.0129s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000262s ]
+NOTIC: [8] Undefined variable: page /Users/ph4nt0mer/HBuilderProjects/Application/Runtime/Cache/Home/ef90aeb0d15d5181851dc046c9941189.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011026s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011145s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000425s ]
+INFO: 
+INFO: 
+INFO: 
+
+[ 2016-07-29T14:15:12+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000764s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003918s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004020s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/ph4nt0mer/HBuilderProjects/Application/Home/Controller/IndexController.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `drops` [ RunTime:0.0031s ]
+NOTIC: [8] Undefined variable: where /Users/ph4nt0mer/HBuilderProjects/Application/Home/Controller/IndexController.class.php 第 16 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `drops` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `drops` ORDER BY id ASC LIMIT 0,10   [ RunTime:0.0077s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+NOTIC: [8] Undefined index: title /Users/ph4nt0mer/HBuilderProjects/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017963s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018115s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000885s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000953s ]
+
+[ 2016-07-29T14:15:12+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000781s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/ph4nt0mer/HBuilderProjects/Application/Home/Controller/IndexController.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `drops` [ RunTime:0.0098s ]
+NOTIC: [8] Undefined variable: where /Users/ph4nt0mer/HBuilderProjects/Application/Home/Controller/IndexController.class.php 第 16 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `drops` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `drops` ORDER BY id ASC LIMIT 0,10   [ RunTime:0.0075s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+NOTIC: [8] Undefined index: title /Users/ph4nt0mer/HBuilderProjects/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012534s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012650s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000270s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000357s ]
+INFO: 
+INFO: 
+INFO: 
+
+[ 2016-07-29T14:15:12+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005841s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/ph4nt0mer/HBuilderProjects/Application/Home/Controller/IndexController.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `drops` [ RunTime:0.0031s ]
+NOTIC: [8] Undefined variable: where /Users/ph4nt0mer/HBuilderProjects/Application/Home/Controller/IndexController.class.php 第 16 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `drops` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `drops` ORDER BY id ASC LIMIT 0,10   [ RunTime:0.0079s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000198s ]
+NOTIC: [8] Undefined index: title /Users/ph4nt0mer/HBuilderProjects/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013034s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013160s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000352s ]
+INFO: 
+INFO: 
+INFO: 
+
+[ 2016-07-29T14:15:13+08:00 ] 127.0.0.1 /index.php/Home/index/show/id/1848412
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000568s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/ph4nt0mer/HBuilderProjects/Application/Home/Controller/IndexController.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `drops` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `drops` WHERE ( id = 1848412 )  [ RunTime:0.0067s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+NOTIC: [8] Undefined variable: page /Users/ph4nt0mer/HBuilderProjects/Application/Runtime/Cache/Home/ef90aeb0d15d5181851dc046c9941189.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013138s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013227s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000906s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001031s ]
+
+[ 2016-07-29T14:15:14+08:00 ] 127.0.0.1 /index.php/Home/index/show/id/1848412
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000587s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/ph4nt0mer/HBuilderProjects/Application/Home/Controller/IndexController.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `drops` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `drops` WHERE ( id = 1848412 )  [ RunTime:0.0078s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+NOTIC: [8] Undefined variable: page /Users/ph4nt0mer/HBuilderProjects/Application/Runtime/Cache/Home/ef90aeb0d15d5181851dc046c9941189.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007292s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007360s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000190s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000314s ]
+INFO: 
+INFO: 
+INFO: 
+
+[ 2016-07-29T14:15:14+08:00 ] 127.0.0.1 /index.php/Home/index/show/id/1848412
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000680s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003823s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/ph4nt0mer/HBuilderProjects/Application/Home/Controller/IndexController.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `drops` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `drops` WHERE ( id = 1848412 )  [ RunTime:0.0073s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+NOTIC: [8] Undefined variable: page /Users/ph4nt0mer/HBuilderProjects/Application/Runtime/Cache/Home/ef90aeb0d15d5181851dc046c9941189.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017843s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017964s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002471s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002585s ]
+INFO: 
+INFO: 
+INFO: 
+
+[ 2016-07-29T14:15:17+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000518s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/ph4nt0mer/HBuilderProjects/Application/Home/Controller/IndexController.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `drops` [ RunTime:0.0066s ]
+NOTIC: [8] Undefined variable: where /Users/ph4nt0mer/HBuilderProjects/Application/Home/Controller/IndexController.class.php 第 16 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `drops` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `drops` ORDER BY id ASC LIMIT 0,10   [ RunTime:0.0081s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000230s ]
+NOTIC: [8] Undefined index: title /Users/ph4nt0mer/HBuilderProjects/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010830s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010913s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000185s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000838s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000915s ]
+
+[ 2016-07-29T14:15:36+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000800s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/ph4nt0mer/HBuilderProjects/Application/Home/Controller/IndexController.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `drops` [ RunTime:0.0033s ]
+NOTIC: [8] Undefined variable: where /Users/ph4nt0mer/HBuilderProjects/Application/Home/Controller/IndexController.class.php 第 16 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `drops` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `drops` ORDER BY id ASC LIMIT 0,10   [ RunTime:0.0059s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+NOTIC: [8] Undefined index: title /Users/ph4nt0mer/HBuilderProjects/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010614s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010697s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000181s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000581s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000642s ]
+
+[ 2016-07-29T14:15:36+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000688s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001143s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/ph4nt0mer/HBuilderProjects/Application/Home/Controller/IndexController.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `drops` [ RunTime:0.0111s ]
+NOTIC: [8] Undefined variable: where /Users/ph4nt0mer/HBuilderProjects/Application/Home/Controller/IndexController.class.php 第 16 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `drops` LIMIT 1   [ RunTime:0.0054s ]
+SQL: SELECT * FROM `drops` ORDER BY id ASC LIMIT 0,10   [ RunTime:0.0187s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+NOTIC: [8] Undefined index: title /Users/ph4nt0mer/HBuilderProjects/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012440s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012533s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000208s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000278s ]
+INFO: 
+INFO: 
+INFO: 
+
+[ 2016-07-29T14:15:36+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000651s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001397s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/ph4nt0mer/HBuilderProjects/Application/Home/Controller/IndexController.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `drops` [ RunTime:0.0067s ]
+NOTIC: [8] Undefined variable: where /Users/ph4nt0mer/HBuilderProjects/Application/Home/Controller/IndexController.class.php 第 16 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `drops` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `drops` ORDER BY id ASC LIMIT 0,10   [ RunTime:0.0072s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+NOTIC: [8] Undefined index: title /Users/ph4nt0mer/HBuilderProjects/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018867s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000969s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001054s ]
+INFO: 
+INFO: 
+INFO: 
+
+[ 2016-07-29T14:15:38+08:00 ] 127.0.0.1 /index.php/Home/index/show/id/1848412
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000587s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/ph4nt0mer/HBuilderProjects/Application/Home/Controller/IndexController.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `drops` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `drops` WHERE ( id = 1848412 )  [ RunTime:0.0063s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+NOTIC: [8] Undefined variable: page /Users/ph4nt0mer/HBuilderProjects/Application/Runtime/Cache/Home/ef90aeb0d15d5181851dc046c9941189.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009749s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009840s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000253s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001005s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001121s ]
+
+[ 2016-07-29T14:15:38+08:00 ] 127.0.0.1 /index.php/Home/index/show/id/1848412
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000628s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000918s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/ph4nt0mer/HBuilderProjects/Application/Home/Controller/IndexController.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `drops` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `drops` WHERE ( id = 1848412 )  [ RunTime:0.0072s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+NOTIC: [8] Undefined variable: page /Users/ph4nt0mer/HBuilderProjects/Application/Runtime/Cache/Home/ef90aeb0d15d5181851dc046c9941189.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009971s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010071s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000514s ]
+INFO: 
+INFO: 
+INFO: 
+
+[ 2016-07-29T14:15:38+08:00 ] 127.0.0.1 /index.php/Home/index/show/id/1848412
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000790s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/ph4nt0mer/HBuilderProjects/Application/Home/Controller/IndexController.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `drops` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `drops` WHERE ( id = 1848412 )  [ RunTime:0.0071s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+NOTIC: [8] Undefined variable: page /Users/ph4nt0mer/HBuilderProjects/Application/Runtime/Cache/Home/ef90aeb0d15d5181851dc046c9941189.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015759s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015850s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000429s ]
+INFO: 
+INFO: 
+INFO: 
+
+[ 2016-07-29T14:15:45+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000710s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/ph4nt0mer/HBuilderProjects/Application/Home/Controller/IndexController.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `drops` [ RunTime:0.0031s ]
+NOTIC: [8] Undefined variable: where /Users/ph4nt0mer/HBuilderProjects/Application/Home/Controller/IndexController.class.php 第 16 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `drops` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `drops` ORDER BY id ASC LIMIT 0,10   [ RunTime:0.0102s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+NOTIC: [8] Undefined index: title /Users/ph4nt0mer/HBuilderProjects/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009440s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009539s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000720s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000796s ]
+
+[ 2016-07-29T14:16:04+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000514s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/ph4nt0mer/HBuilderProjects/Application/Home/Controller/IndexController.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `drops` [ RunTime:0.0063s ]
+NOTIC: [8] Undefined variable: where /Users/ph4nt0mer/HBuilderProjects/Application/Home/Controller/IndexController.class.php 第 16 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `drops` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `drops` ORDER BY id ASC LIMIT 0,10   [ RunTime:0.0078s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+NOTIC: [8] Undefined index: title /Users/ph4nt0mer/HBuilderProjects/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012787s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012894s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000227s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000552s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000609s ]
+
+[ 2016-07-29T14:16:04+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000768s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/ph4nt0mer/HBuilderProjects/Application/Home/Controller/IndexController.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `drops` [ RunTime:0.0029s ]
+NOTIC: [8] Undefined variable: where /Users/ph4nt0mer/HBuilderProjects/Application/Home/Controller/IndexController.class.php 第 16 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `drops` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `drops` ORDER BY id ASC LIMIT 0,10   [ RunTime:0.0067s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000332s ]
+NOTIC: [8] Undefined index: title /Users/ph4nt0mer/HBuilderProjects/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011798s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011915s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000256s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000335s ]
+INFO: 
+INFO: 
+INFO: 
+
+[ 2016-07-29T14:16:04+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/ph4nt0mer/HBuilderProjects/Application/Home/Controller/IndexController.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `drops` [ RunTime:0.0037s ]
+NOTIC: [8] Undefined variable: where /Users/ph4nt0mer/HBuilderProjects/Application/Home/Controller/IndexController.class.php 第 16 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `drops` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `drops` ORDER BY id ASC LIMIT 0,10   [ RunTime:0.0077s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+NOTIC: [8] Undefined index: title /Users/ph4nt0mer/HBuilderProjects/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010899s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010999s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000211s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000281s ]
+INFO: 
+INFO: 
+INFO: 
+
+[ 2016-07-29T14:16:06+08:00 ] 127.0.0.1 /index.php/Home/index/show/id/1848418
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000563s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/ph4nt0mer/HBuilderProjects/Application/Home/Controller/IndexController.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `drops` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `drops` WHERE ( id = 1848418 )  [ RunTime:0.0053s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+NOTIC: [8] Undefined variable: page /Users/ph4nt0mer/HBuilderProjects/Application/Runtime/Cache/Home/ef90aeb0d15d5181851dc046c9941189.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007234s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007308s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000904s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001014s ]
+
+[ 2016-07-29T14:16:06+08:00 ] 127.0.0.1 /index.php/Home/index/show/id/1848418
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000645s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001003s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/ph4nt0mer/HBuilderProjects/Application/Home/Controller/IndexController.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `drops` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `drops` WHERE ( id = 1848418 )  [ RunTime:0.0073s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+NOTIC: [8] Undefined variable: page /Users/ph4nt0mer/HBuilderProjects/Application/Runtime/Cache/Home/ef90aeb0d15d5181851dc046c9941189.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009494s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009578s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000398s ]
+INFO: 
+INFO: 
+INFO: 
+
+[ 2016-07-29T14:16:06+08:00 ] 127.0.0.1 /index.php/Home/index/show/id/1848418
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001009s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/ph4nt0mer/HBuilderProjects/Application/Home/Controller/IndexController.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `drops` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `drops` WHERE ( id = 1848418 )  [ RunTime:0.0088s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+NOTIC: [8] Undefined variable: page /Users/ph4nt0mer/HBuilderProjects/Application/Runtime/Cache/Home/ef90aeb0d15d5181851dc046c9941189.php 第 10 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010989s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011100s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000332s ]
+INFO: 
+INFO: 
+INFO: 
+
+[ 2016-07-29T14:16:10+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000506s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') /Users/ph4nt0mer/HBuilderProjects/Application/Home/Controller/IndexController.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `drops` [ RunTime:0.0063s ]
+NOTIC: [8] Undefined variable: where /Users/ph4nt0mer/HBuilderProjects/Application/Home/Controller/IndexController.class.php 第 16 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `drops` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `drops` ORDER BY id ASC LIMIT 0,10   [ RunTime:0.0108s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+NOTIC: [8] Undefined index: title /Users/ph4nt0mer/HBuilderProjects/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010273s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010410s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001186s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001319s ]
+

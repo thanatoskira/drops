@@ -5,9 +5,8 @@
 	<title>{$data.title}</title>
 </head>
 <body>
-<tbody>
-  {$data.detail}
- </tbody>
+author:{$data.poster}<br>
+{$data.detail|base64_decode}
 <div>{$page}</div>
 </body>
 </html>

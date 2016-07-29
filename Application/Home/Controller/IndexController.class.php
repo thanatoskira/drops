@@ -26,8 +26,9 @@ class IndexController extends Controller {
 		$this -> display();
     }
     public function show($id = ''){
-    	$data = M('Drops')-> where("id = ",$id)->select();
-    	$this -> assign('data', $data);
+    	$id = I('get.id');
+    	$data = M('Drops')-> where("id = ".intval($id))->select();
+    	$this -> assign('data', $data[0]);
     	$this -> display();
     }
 }

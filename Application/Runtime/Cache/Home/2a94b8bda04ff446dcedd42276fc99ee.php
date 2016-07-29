@@ -8,7 +8,7 @@
 <tbody>
     <?php if(is_array($data)): foreach($data as $key=>$vo): ?><tr>
        <td><?php echo ($vo["writetime"]); ?></td>
-       <td><a href="<?php echo U('index/show');?>/id/<?php echo ($vo["id"]); ?>"><?php echo ($vo["title"]); ?></a></td><br>
+       <td><a href="<?php echo U('index/show');?>/id/<?php echo ($vo["id"]); ?>"><?php echo ($vo["title"]); ?></a></td>
        <td>author:<?php echo ($vo["poster"]); ?></td><br><!--author -->
        </tr><?php endforeach; endif; ?>
  </tbody>

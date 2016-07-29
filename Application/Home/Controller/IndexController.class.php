@@ -13,7 +13,6 @@ class IndexController extends Controller {
 			$where['_logic'] = 'or';
 			$model = M('drops') -> where($where);
 		}*/
-		$count = $model -> where($where) -> count();
 		// 查询满足要求的总记录数
 		$Page = new \Extend\Page($count, 10);
 		// 实例化分页类 传入总记录数和每页显示的记录数(25)

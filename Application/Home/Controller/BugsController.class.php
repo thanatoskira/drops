@@ -1,10 +1,10 @@
 <?php
 namespace Home\Controller;
 use Think\Controller;
-class IndexController extends Controller {
+class BugsController extends Controller {
     public function index($key = ""){
        	if ($key === "") {
-			$model = M('Drops');
+			$model = M('www');
 			//默认情况下显示全部
 		} /*else {//搜索功能的时候搜索特定的文章
 			$where['articlescrap.title'] = array('like', "%$key%");
@@ -19,7 +19,7 @@ class IndexController extends Controller {
 		// 实例化分页类 传入总记录数和每页显示的记录数(25)
 		$show = $Page -> show();
 		// 分页显示输出
-		$data = $model ->limit($Page -> firstRow . ',' . $Page -> listRows)-> order('id ASC') -> select();
+		$data = $model ->limit($Page -> firstRow . ',' . $Page -> listRows)-> order('writetime DESC') -> select();
 		$this -> assign('data', $data);
 		//var_dump($data);
 		$this -> assign('page', $show);
@@ -27,7 +27,7 @@ class IndexController extends Controller {
     }
     public function show($id = ''){
     	$id = I('get.id');
-    	$data = M('Drops')-> where("id = ".intval($id))->select();
+    	$data = M('www')-> where("itemid = ".intval($id))->select();
     	$this -> assign('data', $data[0]);
     	$this -> display();
     }
